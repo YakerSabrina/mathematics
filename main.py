@@ -8,4 +8,6 @@ if __name__ == '__main__':
 
     print('({} + {}i) + ({} + {}i) = {} + {}i'.format(number1.a, number1.b, number2.a, number2.b, num_add.a, num_add.b))
     print('({} + {}i) - ({} + {}i) = {} - {}i'.format(number1.a, number1.b, number2.a, number2.b, num_sous.a, num_sous.b))
-    print('({} + {}i) + ({} + {}i) = {} + {}i'.format(number1.a, number1.b, number2.a, number2.b, num_multi.a, num_multi.b))
+    print('({} + {}i) * ({} + {}i) = {} + {}i'.format(number1.a, number1.b, number2.a, number2.b, num_multi.a, num_multi.b))
+
+    suite_fibonnachi(14)
