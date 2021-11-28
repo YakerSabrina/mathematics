@@ -1,5 +1,4 @@
 import glob
-import math
 
 
 def write_files():
