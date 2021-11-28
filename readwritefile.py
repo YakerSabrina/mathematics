@@ -1,4 +1,5 @@
 import glob
+import math
 
 
 def write_files():
@@ -26,3 +27,8 @@ def write_read_file():
 
     liste = [int(i.strip()) for i in open('triple.txt', 'r')]
     print(liste)
+
+
+
+
+
